@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidor ExpressJS</title>
+</head>
+<body>
+    <h1>Bem vindo ao Servidor ExpressJS</h1>
+    <p>Essa é a página inicial</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius suscipit ipsa ex sint sunt odit recusandae at perspiciatis doloremque atque!</p>
+
+    <ul>
+        <%for(banda of bandas){%>
+        <li><%=banda%></li>
+        <% }%>
+    </ul>
+
+    <p><a href="/">inicial</a> | <a href="/sobre">Sobre</a> | <a href="/contato">Contato</a></p>
+</body>
+</html>
